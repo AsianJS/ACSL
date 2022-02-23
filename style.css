@@ -1,12 +1,21 @@
-.nav_title{
+.nav_title {
   font-family: "Courier New";
   margin-left: 5px;
-  font-size:18px;
 }
-.nav-item{
-  font-size:20px;
+.nav-item {
+  font-size: 20px;
   margin-right: 6px;
 }
-.active{
-  font-weight:1000;
+.active {
+  font-weight: 1000;
+}
+@media screen and (max-width: 600px) {
+  #title_message {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
 }
